@@ -204,6 +204,7 @@ body{
     font-weight: 600;
     align-items: center;
     display: flex;
+    margin-left:10px ;
 }
 
 .spp:hover {
@@ -236,4 +237,84 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 50px;
+}
+
+.nhp{
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: transparent;
+
+}
+
+
+
+
+.footer:hover{
+    box-shadow: 1px 1px 20px rgba(251, 1, 1,0.5);
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.cl-title h2{
+    font-weight: 600;
+    color: rgb(212, 81, 4);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.cl-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(212, 81, 4);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ci{
+    width: 400px;
+    height:50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: grey;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.ci:focus{
+    box-shadow: 1px 1px 20px rgba(251, 1, 1,0.7);
+    
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    border:2px solid;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    cursor: pointer;
+    background: transparent;
 }
