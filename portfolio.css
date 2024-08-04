@@ -108,6 +108,10 @@ body{
     margin-top: 70px;
 }
 
+.education1:hover{
+    box-shadow: 1px 1px 20px rgba(251, 1, 1,0.5);
+}
+
 .sp a{
     color: white;
     text-decoration: none;
@@ -226,4 +230,10 @@ body{
 
 .wdes{
     width: 500px;
+}
+
+.skp{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
 }
