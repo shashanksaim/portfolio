@@ -302,73 +302,40 @@ body {
     background: transparent;
 }
 
-@media (max-width: 768px) {
-    body, html {
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 768px) {
+    /* Adjust styles for tablets if needed */
+}
 
-    .head {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: auto;
+@media screen and (max-width: 480px) {
+    /* Mobile-specific styles */
+    .container {
         padding: 10px;
-        box-shadow: 0 0 20px rgba(41, 118, 211, 0.3);
     }
 
-    .sub-head {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0;
+    header {
+        flex-direction: column; /* Stack header items vertically */
+        align-items: center; /* Center items vertically */
     }
 
-    .sp {
-        margin: 5px 0;
+    .nhp {
+        margin-bottom: 10px; /* Add spacing after header title */
+    }
+
+    nav {
+        flex-direction: column; /* Change navigation to vertical */
+        align-items: center; /* Center navigation items */
+    }
+
+    nav li {
+        margin: 5px 0; /* Adjust spacing between navigation items */
     }
 
     .page1 {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
+        flex-direction: column; /* Stack image and description on mobile */
     }
 
-    .meimg {
-        width: 80%;
-    }
-
+    .meimage,
     .description {
-        width: 90%;
-        margin: 20px 0;
-        padding: 20px;
-    }
-
-    .education {
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        margin: 10px 0;
-        padding: 20px;
-    }
-
-    .score {
-        padding: 0;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        padding: 20px;
-    }
-
-    .contact-left {
-        width: 100%;
-        align-items: center;
-    }
-
-    .contact-left .ci, .contact-left textarea {
-        width: 90%;
+        width: 100%; /* Make image and description full width on mobile */
     }
 }
