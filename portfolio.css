@@ -312,30 +312,42 @@ body {
         padding: 10px;
     }
 
-    header {
-        flex-direction: column; /* Stack header items vertically */
-        align-items: center; /* Center items vertically */
-    }
-
-    .nhp {
-        margin-bottom: 10px; /* Add spacing after header title */
-    }
-
-    nav {
-        flex-direction: column; /* Change navigation to vertical */
-        align-items: center; /* Center navigation items */
-    }
-
-    nav li {
-        margin: 5px 0; /* Adjust spacing between navigation items */
-    }
-
     .page1 {
         flex-direction: column; /* Stack image and description on mobile */
+        margin: 10px; /* Adjust margin for mobile */
     }
 
-    .meimage,
+    .meimg,
     .description {
         width: 100%; /* Make image and description full width on mobile */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .description {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .education {
+        flex-direction: column; /* Stack education items on mobile */
+        width: 100%; /* Make education section full width */
+        padding: 10px; /* Adjust padding for mobile */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .education1 {
+        width: 100%; /* Make individual education items full width */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .score {
+        padding-right: 10px; /* Adjust padding for mobile */
+    }
+
+    .footer {
+        flex-direction: column; /* Stack footer items on mobile */
+        height: auto; /* Adjust height for mobile */
+        padding: 10px; /* Adjust padding for mobile */
+        margin-top: 10px; /* Add margin for spacing */
     }
 }
